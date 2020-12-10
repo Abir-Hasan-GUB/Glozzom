@@ -1,5 +1,5 @@
 body {
-  background: #726e6e; }
+  background: #cecece; }
 
 .navbar {
   background: #000; }
@@ -57,6 +57,9 @@ body {
     width: 100%; }
   #homeVedio .fa {
     font-size: 50px; }
+
+#photoGalery img {
+  min-height: 250px; }
 
 @media (max-width: 767px) {
   .nav-item {

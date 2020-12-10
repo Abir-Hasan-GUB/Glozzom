@@ -2,7 +2,7 @@ $iconSize: 50px;
 $dark-overlay: rgba(0,0,0,0.7);
 
 body{
-    background: rgb(114, 110, 110);
+    background: rgb(206, 206, 206);
 }
 .navbar{
     background: #000;
@@ -68,6 +68,11 @@ body{
     }
     .fa{
         font-size: $iconSize;
+    }
+}
+#photoGalery{
+    img{
+        min-height: 250px;
     }
 }
 
