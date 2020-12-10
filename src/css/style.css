@@ -1,5 +1,5 @@
 body {
-  background: #660c0c; }
+  background: #726e6e; }
 
 .navbar {
   background: #000; }
@@ -22,6 +22,9 @@ body {
 .carousel-img-3 {
   background-image: url("../img/image3.jpeg");
   background-size: cover; }
+
+#homeIcon .fa {
+  font-size: 50px; }
 
 @media (max-width: 767px) {
   .nav-item {

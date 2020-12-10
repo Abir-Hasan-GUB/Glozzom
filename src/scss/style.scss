@@ -1,5 +1,7 @@
+$iconSize: 50px;
+
 body{
-    background: rgb(102, 12, 12);
+    background: rgb(114, 110, 110);
 }
 .navbar{
     background: #000;
@@ -25,6 +27,12 @@ body{
     background-image: url('../img/image3.jpeg');
     background-size: cover;
 }
+#homeIcon{
+    .fa{
+        font-size: $iconSize;
+    }
+}
+
 
 @media (max-width: 767px){
     .nav-item{
