@@ -50,6 +50,26 @@ body{
         width: 100%;
     }
 }
+#homeVedio{
+    position: relative;
+    background: url('../img/people.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+
+    .dark-overlay{
+        background: $dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .fa{
+        font-size: $iconSize;
+    }
+}
 
 @media (max-width: 767px){
     .nav-item{
@@ -68,5 +88,13 @@ body{
     #getStarted{
         min-height: 430px;
         padding-top: 1rem;
+    }
+    #feature{
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            text-align: justify;
+        }
     }
 }
