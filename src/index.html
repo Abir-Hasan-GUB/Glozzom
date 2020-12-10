@@ -7,7 +7,7 @@
     <title>Glozzom</title>
     <link rel="stylesheet" href="css/uikit.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
@@ -18,7 +18,8 @@
 
     <!-- ================ NAVIGATION START ================= -->
 
-    <nav class="navbar navbar-dark fixed-top navbar-expand-md">
+    <nav class="navbar navbar-dark navbar-expand-md"
+        uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
         <div class="container">
             <a class="navbar-brand" href="index.html">Glozzom</a>
             <button class="navbar-toggler navbar-right" data-toggle="collapse" data-target="#navbarNav">
@@ -110,17 +111,20 @@
                 <div class="col-md-4 my-3">
                     <i class="fa fa-cog"></i>
                     <h2 class="my-2">Turning Gears</h2>
-                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam tenetur nobis ex suscipit eveniet.</p>
+                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam tenetur
+                        nobis ex suscipit eveniet.</p>
                 </div>
                 <div class="col-md-4 my-3">
                     <i class="fa fa-cloud"></i>
                     <h2 class="my-2">Turning Gears</h2>
-                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam tenetur nobis ex suscipit eveniet.</p>
+                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam tenetur
+                        nobis ex suscipit eveniet.</p>
                 </div>
                 <div class="col-md-4 my-3">
                     <i class="fa fa-cart-plus"></i>
                     <h2 class="my-2">Turning Gears</h2>
-                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam tenetur nobis ex suscipit eveniet.</p>
+                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam tenetur
+                        nobis ex suscipit eveniet.</p>
                 </div>
             </div>
         </div>
@@ -131,13 +135,15 @@
 
     <!-- ================ HOME STARTED START ================= -->
 
-    <section id="getStarted" class="py-5 text-center text-light"> 
+    <section id="getStarted" class="py-5 text-center text-light">
         <div class="dark-overlay">
             <div class="container">
                 <div class="row">
                     <div class="col mt-5 pt-4">
                         <h3 class="text-light">Are You Ready To Get Started?</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem
+                            laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi
+                            laudantium quod dicta, a quaerat vel, obcaecati!</p>
                     </div>
                 </div>
             </div>
@@ -148,13 +154,15 @@
 
 
     <!-- ================ FEATURE PART START ================= -->
-    
+
     <section id="feature" class="py-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <h2 class="">Lorem Ipsum Dolor Sit</h2>
-                    <p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quaerat unde labore sequi facilis possimus nulla a! Aliquam, saepe illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, praesentium!</p>
+                    <p class="lead mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quaerat unde
+                        labore sequi facilis possimus nulla a! Aliquam, saepe illo. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Optio, praesentium!</p>
                     <a href="#" class="btn btn-dark mt-1">Read More</a>
                 </div>
                 <div class="col-md-6 pt-3">
@@ -250,15 +258,16 @@
 
     <!-- ================ PHOTO GALARY END ================= -->
 
-    
+
     <!-- ================ NEWS LETTER START ================= -->
-    
+
     <section id="newsLetter" class="text-light text-center bg-dark py-5">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h2 class="text-light">Signup For Our Newsletter</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique
+                        esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
                     <form class="form-inline justify-content-center" action="#">
                         <label class="sr-only" for="name">Name</label>
                         <input class="form-control m-2" type="text" placeholder="Enter Name">
@@ -276,7 +285,17 @@
 
     <!-- ================ COPYRIGHT START ================= -->
 
-    
+    <section id="copyright" class="py-3 text-center text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="lead pb-0">Copyright 2020 &copy; Glozzom. Designed by: <strong><a class="text-warning "
+                                target="_blank" href="https://www.facebook.com/abir.green.cse/">Abir Hasan</a></strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ================ COPYRIGHT END ================= -->
 
