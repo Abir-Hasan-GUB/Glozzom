@@ -26,10 +26,30 @@ body {
 #homeIcon .fa {
   font-size: 50px; }
 
+#getStarted {
+  position: relative;
+  background: url("../img/pc.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px; }
+  #getStarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
 @media (max-width: 767px) {
   .nav-item {
-    padding-left: 0 !important; } }
+    padding-left: 0 !important; }
+  #getStarted {
+    min-height: 300px; } }
 
 @media (max-width: 480px) {
   .carousel h2 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  #getStarted {
+    min-height: 430px;
+    padding-top: 1rem; } }
