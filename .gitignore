@@ -1,6 +1,2 @@
 node_modules
 scss/style.scss
-debug.log
-gulpfile.js
-package.json
-package-lock.json
