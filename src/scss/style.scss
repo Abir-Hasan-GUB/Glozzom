@@ -96,6 +96,11 @@ body{
         font-size: $iconSize;
     }
 }
+#testimonial{
+    .slick-prev:before, .slick-next:before {
+        color: #000;
+}
+}
 
 @media (max-width: 767px){
     .nav-item{

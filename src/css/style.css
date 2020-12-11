@@ -78,6 +78,9 @@ body {
 #iconBox .fa {
   font-size: 50px; }
 
+#testimonial .slick-prev:before, #testimonial .slick-next:before {
+  color: #000; }
+
 @media (max-width: 767px) {
   .nav-item {
     padding-left: 0 !important; }
